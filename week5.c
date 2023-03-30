@@ -10,6 +10,8 @@ int main(void)
         printf("<");
     }else if(a==b){
         printf("==");
+    }else {
+     printf("알 수 없는 오류입니다");
     }
     return 0;
 }
