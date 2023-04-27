@@ -12,3 +12,16 @@ mask = mask >> 1;// 오른쪽으로 1비트 이동한다.
 ((num & mask) == 0) ? printf("0") : printf("1");
 mask = mask >> 1;// 오른쪽으로 1비트 이동한다.
 ((num & mask) == 0) ? printf("0") : printf("1");
+mask = mask >> 1;// 오른쪽으로 1비트 이동한다.
+((num & mask) == 0) ? printf("0") : printf("1");
+mask = mask >> 1;
+((num & mask) == 0) ? printf("0") : printf("1");
+mask = mask >> 1;
+((num & mask) == 0) ? printf("0") : printf("1");
+mask = mask >> 1;
+((num & mask) == 0) ? printf("0") : printf("1");
+mask = mask >> 1;
+((num & mask) == 0) ? printf("0") : printf("1");
+printf("\n");
+return 0;
+}
