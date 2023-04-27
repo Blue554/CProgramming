@@ -4,8 +4,6 @@ int main(void)
 int month, days;
 printf("달을 입력하시오: ");
 scanf("%d", &month);
-| 83 |
-예제
 switch(month)
 {
 case 2:
